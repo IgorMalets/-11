@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  color: white;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.big-title {
+  font-size: 100px;
+  font-family: "Bangers", "cursive";
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  background-color: rgb(248, 18, 102);
+  color: white;
+  border-radius: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 180px;
+  margin: auto;
+}
+
+.button-hover {
+  background-color: rgb(248, 18, 102);
+}
